@@ -17,6 +17,9 @@ const displayItems = (list) => {
     : '<i class="fa-regular fa-square"></i>'
 }
               </button>
+               <form class="single-form hide">
+                <input type="text"  class="single-input"/>
+              </form>
               <p class="todo-txt">${
   completed ? `<s>${description}</s>` : `${description}`
 }</p>
@@ -36,6 +39,9 @@ const displayItems = (list) => {
         item.classList.remove('yellow');
         item.children[1].innerHTML = '<i class="fa-solid fa-ellipsis-vertical"></i>';
         item.children[1].classList.add('delete-btn');
+        item.children[0].children[1].classList.add('hide');
+        item.children[0].children[2].classList.remove('hide');
+        displayItems(getLocalStorage());
       });
     }
   });
@@ -49,6 +55,10 @@ const displayItems = (list) => {
       e.currentTarget.children[1].innerHTML = '<i class="fa-regular fa-trash-can"></i>';
       e.currentTarget.classList.add('yellow');
       e.currentTarget.children[1].classList.add('delete-btn');
+      e.currentTarget.children[0].children[1].classList.remove('hide');
+      const conent = e.currentTarget.children[0].children[2].textContent;
+      e.currentTarget.children[0].children[1].children[0].value = conent;
+      e.currentTarget.children[0].children[2].classList.add('hide');
     });
   });
   const actionBtn = listContainer.querySelectorAll('.btn');
@@ -79,6 +89,22 @@ const displayItems = (list) => {
         displayItems(newItems);
         setLocalStorage(newItems);
       }
+    });
+  });
+  const editInput = listContainer.querySelectorAll('.single-input');
+
+  editInput.forEach((input) => {
+    input.addEventListener('input', (e) => {
+      const parentID = e.target.parentElement.parentElement.parentElement.dataset.id;
+      const input = e.target.value;
+      const newItems = getLocalStorage().map((item) => {
+        if (item.index.toString() === parentID) {
+          item.description = input;
+          return item;
+        }
+        return item;
+      });
+      setLocalStorage(newItems);
     });
   });
   clearBtn.addEventListener('click', () => {
