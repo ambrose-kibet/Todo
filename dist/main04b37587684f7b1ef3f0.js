@@ -546,6 +546,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const main = document.querySelector('.main');
 const listContainer = document.querySelector('.list-container');
+const clearBtn = document.querySelector('.clear-btn');
 const displayItems = (list) => {
   const displayList = list
     .sort((a, b) => a.index - b.index)
@@ -624,6 +625,14 @@ const displayItems = (list) => {
       }
     });
   });
+  clearBtn.addEventListener('click', () => {
+    const newItems = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.getLocalStorage)().filter(
+      (item) => item.completed !== true,
+    );
+
+    displayItems(newItems);
+    (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.setLocalStorage)(newItems);
+  });
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayItems);
@@ -646,40 +655,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const listContainer = document.querySelector('.list-container');
-
 const handleDisplay = () => {
   (0,_displayList__WEBPACK_IMPORTED_MODULE_0__["default"])((0,_LocalStorage__WEBPACK_IMPORTED_MODULE_1__.getLocalStorage)());
-  const actionBtn = listContainer.querySelectorAll('.btn');
-  actionBtn.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      if (e.currentTarget.classList.contains('delete-btn')) {
-        const ItemId = e.currentTarget.parentElement.dataset.id;
-        const newList = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_1__.getLocalStorage)().filter(
-          (item) => item.index !== Number(ItemId),
-        );
-        e.currentTarget.parentElement.remove();
 
-        (0,_displayList__WEBPACK_IMPORTED_MODULE_0__["default"])(newList);
-        (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_1__.setLocalStorage)(newList);
-        return;
-      }
-      if (e.currentTarget.classList.contains('complete-btn')) {
-        const ItemId = e.currentTarget.parentElement.parentElement.dataset.id;
-        const newItems = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_1__.getLocalStorage)().map((item) => {
-          const { index } = item;
-          if (index === Number(ItemId)) {
-            item.completed = !item.completed;
-            return item;
-          }
-          return item;
-        });
-
-        (0,_displayList__WEBPACK_IMPORTED_MODULE_0__["default"])(newItems);
-        (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_1__.setLocalStorage)(newItems);
-      }
-    });
-  });
   // clear all completed fuctionality
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (handleDisplay);
@@ -800,4 +778,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main8392256d3f5ccf820073.js.map
+//# sourceMappingURL=main04b37587684f7b1ef3f0.js.map
