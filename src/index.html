@@ -11,7 +11,7 @@
     ></script>
   </head>
   <body>
-    <main>
+    <main class="main">
       <section class="todo-container">
         <div class="title-container">
           <p>Today's to do</p>
@@ -24,13 +24,15 @@
               class="form-input"
               placeholder="Add to your list..."
             />
-            <button type="button" class="btn submit-btn">
+            <button type="submit" class="btn submit-btn">
               <i class="fa-solid fa-arrow-left"></i>
             </button>
           </div>
         </form>
         <ul class="list-container"></ul>
-        <button type="button" class="btn btn-block">Clear all completed</button>
+        <button type="button" class="btn btn-block clear-btn">
+          Clear all completed
+        </button>
       </section>
     </main>
   </body>
