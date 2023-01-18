@@ -116,6 +116,11 @@ form {
   padding: 1rem 0;
 }
 
+.single-form {
+  border: none;
+  padding: 0;
+}
+
 .form-control {
   display: grid;
   grid-template-columns: 9fr 1fr;
@@ -124,7 +129,8 @@ form {
 }
 
 .btn,
-.form-input {
+.form-input,
+.single-input {
   border: none;
   background: transparent;
   font-size: 1.5rem;
@@ -137,6 +143,10 @@ form {
 
 .btn {
   color: grey;
+}
+
+.single-input {
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -185,4 +195,8 @@ form {
   margin: 0;
   font-size: 1rem;
   padding: 1rem;
+}
+
+.hide {
+  display: none;
 }
