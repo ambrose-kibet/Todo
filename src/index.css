@@ -200,3 +200,8 @@ form {
 .hide {
   display: none;
 }
+
+.complete-btn {
+  color: rgb(0, 162, 255);
+  font-weight: bolder;
+}
