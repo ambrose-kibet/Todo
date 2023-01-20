@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=PT+Sans:400|Mingzat:400);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\r\n::after,\r\n::before {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n  font-size: 100%;\r\n} /* 16px */\r\n:root {\r\n  --clr-body: #dee2e6b0;\r\n  --clr--primary: #fdffb6;\r\n  --clr--secondary: #3a86ff;\r\n  --max-width: 600px;\r\n\r\n  /* box shadows */\r\n  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\r\n  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\r\n  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n  --shadow-4:\r\n    0 20px 25px -5px rgb(0 0 0 / 0.1),\r\n    0 8px 10px -6px rgb(0 0 0 / 0.1);\r\n  --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);\r\n  --transition: all 0.3s ease-in-out;\r\n}\r\n\r\nbody {\r\n  background: var(--clr-body);\r\n  font-family: 'PT Sans', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.75;\r\n  color: #000;\r\n}\r\n\r\np {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n  margin: 3rem 0 1.38rem;\r\n  font-family: 'Mingzat', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.3;\r\n}\r\n\r\nh1 {\r\n  margin-top: 0;\r\n  font-size: 3.052rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2.441rem;\r\n}\r\n\r\nh3 {\r\n  font-size: 1.953rem;\r\n}\r\n\r\nh4 {\r\n  font-size: 1.563rem;\r\n}\r\n\r\nh5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nsmall,\r\n.text_small {\r\n  font-size: 0.8rem;\r\n}\r\n\r\nmain {\r\n  min-width: 100vw;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.todo-container {\r\n  width: 100%;\r\n  max-width: var(--max-width);\r\n  margin: auto 1rem;\r\n  box-shadow: var(--shadow-3);\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n}\r\n\r\n.title-container {\r\n  text-transform: capitalize;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: 0 1rem;\r\n  padding-top: 0.75rem;\r\n}\r\n\r\n.title-container > p {\r\n  padding-left: 1rem;\r\n}\r\n\r\n.title-container > span {\r\n  padding-right: 1rem;\r\n}\r\n\r\nform {\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem 0;\r\n}\r\n\r\n.form-control {\r\n  display: grid;\r\n  grid-template-columns: 9fr 1fr;\r\n  align-items: center;\r\n  width: 100%;\r\n}\r\n\r\n.btn,\r\n.form-input {\r\n  border: none;\r\n  background: transparent;\r\n  font-size: 1.5rem;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  padding: 0 1rem;\r\n  outline: none;\r\n}\r\n\r\n.btn {\r\n  color: grey;\r\n}\r\n\r\n.btn:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n.submit-btn {\r\n  font-size: 1rem;\r\n  color: gray;\r\n}\r\n\r\n::placeholder {\r\n  font-size: 1rem;\r\n  font-style: italic;\r\n  padding-left: 1rem;\r\n}\r\n\r\n.list-container {\r\n  list-style-type: none;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.wrapper {\r\n  display: grid;\r\n  grid-template-columns: auto 1fr;\r\n}\r\n\r\n.todo-txt {\r\n  margin-bottom: 0;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem;\r\n}\r\n\r\n.yellow {\r\n  background: var(--clr--primary);\r\n}\r\n\r\n.btn-block {\r\n  margin: 0;\r\n  font-size: 1rem;\r\n  padding: 1rem;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/index.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAIA;EACE,eAAe;AACjB,EAAE,SAAS;AACX;EACE,qBAAqB;EACrB,uBAAuB;EACvB,yBAAyB;EACzB,kBAAkB;;EAElB,gBAAgB;EAChB,yEAAyE;EACzE,4EAA4E;EAC5E,8EAA8E;EAC9E;;oCAEkC;EAClC,+CAA+C;EAC/C,kCAAkC;AACpC;;AAEA;EACE,2BAA2B;EAC3B,kCAAkC;EAClC,gBAAgB;EAChB,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;;;;;EAKE,sBAAsB;EACtB,kCAAkC;EAClC,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;;EAEE,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,2BAA2B;EAC3B,iBAAiB;EACjB,2BAA2B;EAC3B,aAAa;EACb,0BAA0B;AAC5B;;AAEA;EACE,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,eAAe;EACf,oBAAoB;AACtB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,2CAA2C;EAC3C,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,WAAW;AACb;;AAEA;;EAEE,YAAY;EACZ,uBAAuB;EACvB,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;EACf,aAAa;AACf;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,WAAW;AACb;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,qBAAqB;EACrB,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,+BAA+B;AACjC;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,2CAA2C;EAC3C,aAAa;AACf;;AAEA;EACE,+BAA+B;AACjC;;AAEA;EACE,SAAS;EACT,eAAe;EACf,aAAa;AACf","sourcesContent":["*,\r\n::after,\r\n::before {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\n@import url('https://fonts.googleapis.com/css?family=PT+Sans:400|Mingzat:400');\r\n\r\nhtml {\r\n  font-size: 100%;\r\n} /* 16px */\r\n:root {\r\n  --clr-body: #dee2e6b0;\r\n  --clr--primary: #fdffb6;\r\n  --clr--secondary: #3a86ff;\r\n  --max-width: 600px;\r\n\r\n  /* box shadows */\r\n  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\r\n  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\r\n  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n  --shadow-4:\r\n    0 20px 25px -5px rgb(0 0 0 / 0.1),\r\n    0 8px 10px -6px rgb(0 0 0 / 0.1);\r\n  --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);\r\n  --transition: all 0.3s ease-in-out;\r\n}\r\n\r\nbody {\r\n  background: var(--clr-body);\r\n  font-family: 'PT Sans', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.75;\r\n  color: #000;\r\n}\r\n\r\np {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n  margin: 3rem 0 1.38rem;\r\n  font-family: 'Mingzat', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.3;\r\n}\r\n\r\nh1 {\r\n  margin-top: 0;\r\n  font-size: 3.052rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2.441rem;\r\n}\r\n\r\nh3 {\r\n  font-size: 1.953rem;\r\n}\r\n\r\nh4 {\r\n  font-size: 1.563rem;\r\n}\r\n\r\nh5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nsmall,\r\n.text_small {\r\n  font-size: 0.8rem;\r\n}\r\n\r\nmain {\r\n  min-width: 100vw;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.todo-container {\r\n  width: 100%;\r\n  max-width: var(--max-width);\r\n  margin: auto 1rem;\r\n  box-shadow: var(--shadow-3);\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n}\r\n\r\n.title-container {\r\n  text-transform: capitalize;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: 0 1rem;\r\n  padding-top: 0.75rem;\r\n}\r\n\r\n.title-container > p {\r\n  padding-left: 1rem;\r\n}\r\n\r\n.title-container > span {\r\n  padding-right: 1rem;\r\n}\r\n\r\nform {\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem 0;\r\n}\r\n\r\n.form-control {\r\n  display: grid;\r\n  grid-template-columns: 9fr 1fr;\r\n  align-items: center;\r\n  width: 100%;\r\n}\r\n\r\n.btn,\r\n.form-input {\r\n  border: none;\r\n  background: transparent;\r\n  font-size: 1.5rem;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  padding: 0 1rem;\r\n  outline: none;\r\n}\r\n\r\n.btn {\r\n  color: grey;\r\n}\r\n\r\n.btn:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n.submit-btn {\r\n  font-size: 1rem;\r\n  color: gray;\r\n}\r\n\r\n::placeholder {\r\n  font-size: 1rem;\r\n  font-style: italic;\r\n  padding-left: 1rem;\r\n}\r\n\r\n.list-container {\r\n  list-style-type: none;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.wrapper {\r\n  display: grid;\r\n  grid-template-columns: auto 1fr;\r\n}\r\n\r\n.todo-txt {\r\n  margin-bottom: 0;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem;\r\n}\r\n\r\n.yellow {\r\n  background: var(--clr--primary);\r\n}\r\n\r\n.btn-block {\r\n  margin: 0;\r\n  font-size: 1rem;\r\n  padding: 1rem;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\r\n::after,\r\n::before {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n  font-size: 100%;\r\n} /* 16px */\r\n:root {\r\n  --clr-body: #dee2e6b0;\r\n  --clr--primary: #fdffb6;\r\n  --clr--secondary: #3a86ff;\r\n  --max-width: 600px;\r\n\r\n  /* box shadows */\r\n  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\r\n  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\r\n  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n  --shadow-4:\r\n    0 20px 25px -5px rgb(0 0 0 / 0.1),\r\n    0 8px 10px -6px rgb(0 0 0 / 0.1);\r\n  --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);\r\n  --transition: all 0.3s ease-in-out;\r\n}\r\n\r\nbody {\r\n  background: var(--clr-body);\r\n  font-family: 'PT Sans', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.75;\r\n  color: #000;\r\n}\r\n\r\np {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n  margin: 3rem 0 1.38rem;\r\n  font-family: 'Mingzat', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.3;\r\n}\r\n\r\nh1 {\r\n  margin-top: 0;\r\n  font-size: 3.052rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2.441rem;\r\n}\r\n\r\nh3 {\r\n  font-size: 1.953rem;\r\n}\r\n\r\nh4 {\r\n  font-size: 1.563rem;\r\n}\r\n\r\nh5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nsmall,\r\n.text_small {\r\n  font-size: 0.8rem;\r\n}\r\n\r\nmain {\r\n  min-width: 100vw;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.todo-container {\r\n  width: 100%;\r\n  max-width: var(--max-width);\r\n  margin: auto 1rem;\r\n  box-shadow: var(--shadow-3);\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n}\r\n\r\n.title-container {\r\n  text-transform: capitalize;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: 0 1rem;\r\n  padding-top: 0.75rem;\r\n}\r\n\r\n.title-container > p {\r\n  padding-left: 1rem;\r\n}\r\n\r\n.title-container > span {\r\n  padding-right: 1rem;\r\n}\r\n\r\nform {\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem 0;\r\n}\r\n\r\n.single-form {\r\n  border: none;\r\n  padding: 0;\r\n}\r\n\r\n.form-control {\r\n  display: grid;\r\n  grid-template-columns: 9fr 1fr;\r\n  align-items: center;\r\n  width: 100%;\r\n}\r\n\r\n.btn,\r\n.form-input,\r\n.single-input {\r\n  border: none;\r\n  background: transparent;\r\n  font-size: 1.5rem;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  padding: 0 1rem;\r\n  outline: none;\r\n}\r\n\r\n.btn {\r\n  color: grey;\r\n}\r\n\r\n.single-input {\r\n  font-size: 1rem;\r\n}\r\n\r\n.btn:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n.submit-btn {\r\n  font-size: 1rem;\r\n  color: gray;\r\n}\r\n\r\n::placeholder {\r\n  font-size: 1rem;\r\n  font-style: italic;\r\n  padding-left: 1rem;\r\n}\r\n\r\n.list-container {\r\n  list-style-type: none;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.wrapper {\r\n  display: grid;\r\n  grid-template-columns: auto 1fr;\r\n}\r\n\r\n.todo-txt {\r\n  margin-bottom: 0;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem;\r\n}\r\n\r\n.yellow {\r\n  background: var(--clr--primary);\r\n}\r\n\r\n.btn-block {\r\n  margin: 0;\r\n  font-size: 1rem;\r\n  padding: 1rem;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n.complete-btn {\r\n  color: rgb(0, 162, 255);\r\n  font-weight: bolder;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/index.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAIA;EACE,eAAe;AACjB,EAAE,SAAS;AACX;EACE,qBAAqB;EACrB,uBAAuB;EACvB,yBAAyB;EACzB,kBAAkB;;EAElB,gBAAgB;EAChB,yEAAyE;EACzE,4EAA4E;EAC5E,8EAA8E;EAC9E;;oCAEkC;EAClC,+CAA+C;EAC/C,kCAAkC;AACpC;;AAEA;EACE,2BAA2B;EAC3B,kCAAkC;EAClC,gBAAgB;EAChB,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;;;;;EAKE,sBAAsB;EACtB,kCAAkC;EAClC,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;;EAEE,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,2BAA2B;EAC3B,iBAAiB;EACjB,2BAA2B;EAC3B,aAAa;EACb,0BAA0B;AAC5B;;AAEA;EACE,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,eAAe;EACf,oBAAoB;AACtB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,2CAA2C;EAC3C,eAAe;AACjB;;AAEA;EACE,YAAY;EACZ,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,WAAW;AACb;;AAEA;;;EAGE,YAAY;EACZ,uBAAuB;EACvB,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;EACf,aAAa;AACf;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,WAAW;AACb;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,qBAAqB;EACrB,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,+BAA+B;AACjC;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,2CAA2C;EAC3C,aAAa;AACf;;AAEA;EACE,+BAA+B;AACjC;;AAEA;EACE,SAAS;EACT,eAAe;EACf,aAAa;AACf;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,uBAAuB;EACvB,mBAAmB;AACrB","sourcesContent":["*,\r\n::after,\r\n::before {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\n@import url('https://fonts.googleapis.com/css?family=PT+Sans:400|Mingzat:400');\r\n\r\nhtml {\r\n  font-size: 100%;\r\n} /* 16px */\r\n:root {\r\n  --clr-body: #dee2e6b0;\r\n  --clr--primary: #fdffb6;\r\n  --clr--secondary: #3a86ff;\r\n  --max-width: 600px;\r\n\r\n  /* box shadows */\r\n  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\r\n  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\r\n  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n  --shadow-4:\r\n    0 20px 25px -5px rgb(0 0 0 / 0.1),\r\n    0 8px 10px -6px rgb(0 0 0 / 0.1);\r\n  --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);\r\n  --transition: all 0.3s ease-in-out;\r\n}\r\n\r\nbody {\r\n  background: var(--clr-body);\r\n  font-family: 'PT Sans', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.75;\r\n  color: #000;\r\n}\r\n\r\np {\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n  margin: 3rem 0 1.38rem;\r\n  font-family: 'Mingzat', sans-serif;\r\n  font-weight: 400;\r\n  line-height: 1.3;\r\n}\r\n\r\nh1 {\r\n  margin-top: 0;\r\n  font-size: 3.052rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2.441rem;\r\n}\r\n\r\nh3 {\r\n  font-size: 1.953rem;\r\n}\r\n\r\nh4 {\r\n  font-size: 1.563rem;\r\n}\r\n\r\nh5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nsmall,\r\n.text_small {\r\n  font-size: 0.8rem;\r\n}\r\n\r\nmain {\r\n  min-width: 100vw;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.todo-container {\r\n  width: 100%;\r\n  max-width: var(--max-width);\r\n  margin: auto 1rem;\r\n  box-shadow: var(--shadow-3);\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n}\r\n\r\n.title-container {\r\n  text-transform: capitalize;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: 0 1rem;\r\n  padding-top: 0.75rem;\r\n}\r\n\r\n.title-container > p {\r\n  padding-left: 1rem;\r\n}\r\n\r\n.title-container > span {\r\n  padding-right: 1rem;\r\n}\r\n\r\nform {\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem 0;\r\n}\r\n\r\n.single-form {\r\n  border: none;\r\n  padding: 0;\r\n}\r\n\r\n.form-control {\r\n  display: grid;\r\n  grid-template-columns: 9fr 1fr;\r\n  align-items: center;\r\n  width: 100%;\r\n}\r\n\r\n.btn,\r\n.form-input,\r\n.single-input {\r\n  border: none;\r\n  background: transparent;\r\n  font-size: 1.5rem;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  padding: 0 1rem;\r\n  outline: none;\r\n}\r\n\r\n.btn {\r\n  color: grey;\r\n}\r\n\r\n.single-input {\r\n  font-size: 1rem;\r\n}\r\n\r\n.btn:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n.submit-btn {\r\n  font-size: 1rem;\r\n  color: gray;\r\n}\r\n\r\n::placeholder {\r\n  font-size: 1rem;\r\n  font-style: italic;\r\n  padding-left: 1rem;\r\n}\r\n\r\n.list-container {\r\n  list-style-type: none;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.wrapper {\r\n  display: grid;\r\n  grid-template-columns: auto 1fr;\r\n}\r\n\r\n.todo-txt {\r\n  margin-bottom: 0;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.todo-item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  border-bottom: 1pt solid rgb(187, 187, 187);\r\n  padding: 1rem;\r\n}\r\n\r\n.yellow {\r\n  background: var(--clr--primary);\r\n}\r\n\r\n.btn-block {\r\n  margin: 0;\r\n  font-size: 1rem;\r\n  padding: 1rem;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n.complete-btn {\r\n  color: rgb(0, 162, 255);\r\n  font-weight: bolder;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -556,14 +556,17 @@ const displayItems = (list) => {
             <div class="wrapper">
               <button type="button" class="btn complete-btn">
                 ${
-  completed
-    ? '<i class="fa-solid fa-check"></i>'
-    : '<i class="fa-regular fa-square"></i>'
-}
+                  completed
+                    ? '<i class="fa-solid fa-check"></i>'
+                    : '<i class="fa-regular fa-square"></i>'
+                }
               </button>
+               <form class="single-form hide">
+                <input type="text"  class="single-input"/>
+              </form>
               <p class="todo-txt">${
-  completed ? `<s>${description}</s>` : `${description}`
-}</p>
+                completed ? `<s>${description}</s>` : `${description}`
+              }</p>
             </div>
             <button type="button" class="btn">
               <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -578,8 +581,12 @@ const displayItems = (list) => {
       const allItems = [...e.currentTarget.children[0].children[2].children];
       allItems.forEach((item) => {
         item.classList.remove('yellow');
-        item.children[1].innerHTML = '<i class="fa-solid fa-ellipsis-vertical"></i>';
+        item.children[1].innerHTML =
+          '<i class="fa-solid fa-ellipsis-vertical"></i>';
         item.children[1].classList.add('delete-btn');
+        item.children[0].children[1].classList.add('hide');
+        item.children[0].children[2].classList.remove('hide');
+        displayItems((0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.getLocalStorage)());
       });
     }
   });
@@ -587,12 +594,18 @@ const displayItems = (list) => {
     listItem.addEventListener('click', (e) => {
       listItems.forEach((item) => {
         item.classList.remove('yellow');
-        item.children[1].innerHTML = '<i class="fa-solid fa-ellipsis-vertical"></i>';
+        item.children[1].innerHTML =
+          '<i class="fa-solid fa-ellipsis-vertical"></i>';
         item.children[1].classList.add('delete-btn');
       });
-      e.currentTarget.children[1].innerHTML = '<i class="fa-regular fa-trash-can"></i>';
+      e.currentTarget.children[1].innerHTML =
+        '<i class="fa-regular fa-trash-can"></i>';
       e.currentTarget.classList.add('yellow');
       e.currentTarget.children[1].classList.add('delete-btn');
+      e.currentTarget.children[0].children[1].classList.remove('hide');
+      const conent = e.currentTarget.children[0].children[2].textContent;
+      e.currentTarget.children[0].children[1].children[0].value = conent;
+      e.currentTarget.children[0].children[2].classList.add('hide');
     });
   });
   const actionBtn = listContainer.querySelectorAll('.btn');
@@ -601,7 +614,7 @@ const displayItems = (list) => {
       if (e.currentTarget.classList.contains('delete-btn')) {
         const ItemId = e.currentTarget.parentElement.dataset.id;
         const newList = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.getLocalStorage)().filter(
-          (item) => item.index !== Number(ItemId),
+          (item) => item.index !== Number(ItemId)
         );
         e.currentTarget.parentElement.remove();
 
@@ -625,9 +638,26 @@ const displayItems = (list) => {
       }
     });
   });
+  const editInput = listContainer.querySelectorAll('.single-input');
+
+  editInput.forEach((input) => {
+    input.addEventListener('input', (e) => {
+      const parentID =
+        e.target.parentElement.parentElement.parentElement.dataset.id;
+      const input = e.target.value;
+      const newItems = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.getLocalStorage)().map((item) => {
+        if (item.index.toString() === parentID) {
+          item.description = input;
+          return item;
+        }
+        return item;
+      });
+      (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.setLocalStorage)(newItems);
+    });
+  });
   clearBtn.addEventListener('click', () => {
     const newItems = (0,_LocalStorage__WEBPACK_IMPORTED_MODULE_0__.getLocalStorage)().filter(
-      (item) => item.completed !== true,
+      (item) => item.completed !== true
     );
 
     displayItems(newItems);
@@ -778,4 +808,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main04b37587684f7b1ef3f0.js.map
+//# sourceMappingURL=mainb8eb1007ea1fdab151aa.js.map
