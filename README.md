@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ambrose-kibet.github.io/portfolio/)
+- [Live Demo Link](https://ambrose-kibet.github.io/Todo/)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
