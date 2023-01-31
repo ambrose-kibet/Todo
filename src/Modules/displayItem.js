@@ -2,6 +2,7 @@ import { setLocalStorage } from '../LocalStorage';
 import currentList from './curentList';
 
 const listContainer = document.querySelector('.list-container');
+const clearBtn = document.querySelector('.clear-btn');
 const displayItems = (list) => {
   const displayList = list
     .sort((a, b) => a.index - b.index)
@@ -11,17 +12,17 @@ const displayItems = (list) => {
             <div class="wrapper">
               <button type="button" class="btn complete-btn">
                 ${
-  completed
-    ? '<i class="fa-solid fa-check"></i>'
-    : '<i class="fa-regular fa-square"></i>'
-}
+                  completed
+                    ? '<i class="fa-solid fa-check"></i>'
+                    : '<i class="fa-regular fa-square"></i>'
+                }
               </button>
                <form class="single-form hide">
                 <input type="text"  class="single-input"/>
               </form>
               <p class="todo-txt">${
-  completed ? `<s>${description}</s>` : `${description}`
-}</p>
+                completed ? `<s>${description}</s>` : `${description}`
+              }</p>
             </div>
             <button type="button" class="btn">
               <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -35,10 +36,12 @@ const displayItems = (list) => {
     listItem.addEventListener('click', (e) => {
       listItems.forEach((item) => {
         item.classList.remove('yellow');
-        item.children[1].innerHTML = '<i class="fa-solid fa-ellipsis-vertical"></i>';
+        item.children[1].innerHTML =
+          '<i class="fa-solid fa-ellipsis-vertical"></i>';
         item.children[1].classList.add('delete-btn');
       });
-      e.currentTarget.children[1].innerHTML = '<i class="fa-regular fa-trash-can"></i>';
+      e.currentTarget.children[1].innerHTML =
+        '<i class="fa-regular fa-trash-can"></i>';
       e.currentTarget.classList.add('yellow');
       e.currentTarget.children[1].classList.add('delete-btn');
       e.currentTarget.children[0].children[1].classList.remove('hide');
@@ -69,11 +72,16 @@ const displayItems = (list) => {
 
   editInput.forEach((input) => {
     input.addEventListener('input', (e) => {
-      const parentID = e.target.parentElement.parentElement.parentElement.dataset.id;
+      const parentID =
+        e.target.parentElement.parentElement.parentElement.dataset.id;
       const input = e.target.value;
       currentList.editItem(Number(parentID), 'description', input);
       setLocalStorage(currentList.listItems);
     });
+  });
+  clearBtn.addEventListener('click', () => {
+    currentList.clearCompletedItems();
+    setLocalStorage(currentList.listItems);
   });
 };
 
