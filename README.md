@@ -87,8 +87,7 @@ To run test:
 👤 **Author2**
 
 - GitHub: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
-- Twitter: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
-- LinkedIn: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
+- LinkedIn: [Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi-nduwayo-crispin-74b534227/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
