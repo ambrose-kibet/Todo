@@ -67,6 +67,13 @@ To get this repository to your desired folder:
   git clone https://github.com/ambrose-kibet/Todo.git
 ```
 
+To run test:
+
+```sh
+  cd my-folder
+  npm test
+```
+
 - <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -76,6 +83,12 @@ To get this repository to your desired folder:
 - GitHub: [@ambrose-kibet](https://github.com/ambrose-kibet)
 - Twitter: [@ambrose_kibet](https://twitter.com/ambrose_kibet)
 - LinkedIn: [ambrose-kibet](https://www.linkedin.com/in/ambrose-kibet-56a791122/)
+
+👤 **Author2**
+
+- GitHub: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
+- Twitter: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
+- LinkedIn: [Bigizi Nduwayo Crispin](https://github.com/Bigizi?)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
