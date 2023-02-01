@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import List from './src/Modules/ListClass';
+import List from './Modules/ListClass';
 
 const TestFile = new List();
 // Add
@@ -16,3 +16,11 @@ describe('Add functionality', () => {
   });
 });
 // delete
+describe('delete functionality', () => {
+  it('should return a length of zero ', () => {
+    expect(TestFile.deleteItem()).not.toBeUndefined();
+    TestFile.addItem('world');
+    TestFile.deleteItem(0);
+    expect(TestFile.listItems.length).toBe(2);
+  });
+});
