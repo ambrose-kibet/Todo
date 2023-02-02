@@ -3,6 +3,41 @@
  */
 
 import List from './Modules/ListClass';
+// display items mock fn
+const displayItems = jest.fn((list) => {
+  const displayList = list
+    .sort((a, b) => a.index - b.index)
+    .map((item) => {
+      const { description, index, completed } = item;
+      return ` <li class="todo-item" data-id="${index}">
+            <div class="wrapper">
+              <button type="button" class="btn complete-btn">
+                ${
+  completed
+    ? '<i class="fa-solid fa-check"></i>'
+    : '<i class="fa-regular fa-square"></i>'
+}
+              </button>
+               <form class="single-form hide">
+                <input type="text"  class="single-input"/>
+              </form>
+              <p class="todo-txt">${
+  completed ? `<s>${description}</s>` : `${description}`
+}</p>
+            </div>
+            <button type="button" class="btn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>`;
+    })
+    .join('');
+
+  const listContainer = document.createElement('ul');
+  listContainer.className = 'list-container';
+  listContainer.innerHTML = displayList;
+  const todolist = listContainer.children.length;
+  return todolist;
+});
 
 const TestFile = new List();
 // Add
